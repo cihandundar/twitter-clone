@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Twitter / Youtube</title>
+</head>
+<body>
+
+<div class="page__main">
+<div class="page__container">
+
+
+    <div class="page__nav">
+        <div class="page__nav__row">
+        <div class="nav__logo">
+            <span>
+                <a href="index.html"><svg
+                    width="2em"
+                    height="2em"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    {...props}
+                    >
+                    <path
+                      d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 002.048-2.578 9.3 9.3 0 01-2.958 1.13 4.66 4.66 0 00-7.938 4.25 13.229 13.229 0 01-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 003.96 9.824a4.647 4.647 0 01-2.11-.583v.06a4.66 4.66 0 003.737 4.568 4.692 4.692 0 01-2.104.08 4.661 4.661 0 004.352 3.234 9.348 9.348 0 01-5.786 1.995 9.5 9.5 0 01-1.112-.065 13.175 13.175 0 007.14 2.093c8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602a9.47 9.47 0 002.323-2.41l.002-.003z"
+                      fill="rgb(29, 155, 240)"
+                    />
+                    </svg></a>
+            </span>
+        </div>
+        <div class="nav__wrapper">
+            <div class="nav__btn">
+                <span class="nav__icon explore">
+                    <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M21 7.337h-3.93l.372-4.272a.751.751 0 00-.682-.812.752.752 0 00-.812.683l-.383 4.4h-6.32l.37-4.27a.75.75 0 00-.68-.813.751.751 0 00-.813.683l-.382 4.4H3.782a.75.75 0 000 1.5H7.61l-.55 6.327H3a.75.75 0 000 1.5h3.93l-.372 4.272a.751.751 0 00.682.812l.066.003a.75.75 0 00.746-.686l.383-4.4h6.32l-.37 4.27a.751.751 0 00.682.813l.066.003a.75.75 0 00.746-.686l.382-4.4h3.957c.413 0 .75-.337.75-.75a.752.752 0 00-.75-.75H16.39l.55-6.327H21a.75.75 0 000-1.5zm-6.115 7.826h-6.32l.55-6.326h6.32l-.55 6.326z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+                <span class="nav__search">
+                    <svg width="1.5em" height="1.5em" viewBox="0 0 24 24"  {...props}>
+                        <path
+                          d="M21.53 20.47l-3.66-3.66A8.98 8.98 0 0020 11a9 9 0 10-9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66a.746.746 0 001.06 0 .747.747 0 00.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
+                          
+                        />
+                      </svg>
+                </span>
+                <a href="explore.html">Explore</a>
+            </div>
+            <div class="nav__btn">
+                <span class="nav__icon">
+                    <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M12 8.21c-2.09 0-3.79 1.7-3.79 3.79s1.7 3.79 3.79 3.79 3.79-1.7 3.79-3.79-1.7-3.79-3.79-3.79zm0 6.08A2.292 2.292 0 019.71 12c0-1.264 1.03-2.29 2.29-2.29s2.29 1.026 2.29 2.29A2.292 2.292 0 0112 14.29z"
+                          fill="currentColor"
+                        />
+                        <path
+                          d="M12.36 22.375h-.722a2.26 2.26 0 01-2.262-2.064l-.014-.147a.77.77 0 00-.472-.644.763.763 0 00-.798.115l-.116.097c-.868.725-2.253.663-3.06-.14l-.51-.51a2.262 2.262 0 01-.14-3.06l.098-.118a.768.768 0 00.122-.787.768.768 0 00-.646-.48l-.15-.014a2.26 2.26 0 01-2.067-2.262v-.722a2.26 2.26 0 012.064-2.262l.156-.014a.777.777 0 00.522-1.268l-.094-.116a2.261 2.261 0 01.137-3.06l.512-.512c.804-.804 2.188-.865 3.06-.14l.116.098c.218.184.528.23.79.122a.769.769 0 00.477-.643l.014-.153a2.26 2.26 0 012.262-2.066h.722a2.26 2.26 0 012.262 2.064l.014.156c.025.285.206.53.472.64.277.117.58.062.794-.117l.12-.102c.867-.723 2.254-.662 3.06.14l.51.512c.836.838.896 2.153.14 3.06l-.1.118a.758.758 0 00-.123.788c.112.27.36.45.646.478l.152.014a2.26 2.26 0 012.067 2.262v.723a2.26 2.26 0 01-2.064 2.262l-.155.014a.763.763 0 00-.64.47.77.77 0 00.117.795l.1.12c.756.905.696 2.22-.14 3.06l-.51.51c-.807.804-2.19.864-3.06.14l-.115-.096a.78.78 0 00-.79-.122.772.772 0 00-.48.646l-.014.15a2.26 2.26 0 01-2.262 2.06l-.002.005zm-3.773-4.42c.3 0 .593.06.87.175a2.27 2.27 0 011.4 1.896l.014.147c.037.4.367.7.77.7h.722c.4 0 .73-.3.768-.7l.014-.148a2.266 2.266 0 011.392-1.892 2.283 2.283 0 012.333.35l.113.094a.764.764 0 001.039-.047l.51-.51a.766.766 0 00.048-1.038l-.1-.12a2.262 2.262 0 01-.352-2.323 2.263 2.263 0 011.894-1.397l.155-.014a.77.77 0 00.7-.77v-.722a.77.77 0 00-.702-.768l-.152-.014a2.268 2.268 0 01-1.895-1.393 2.263 2.263 0 01.353-2.327l.1-.118a.769.769 0 00-.048-1.04l-.51-.51a.764.764 0 00-1.038-.047l-.12.1a2.31 2.31 0 01-2.322.354 2.268 2.268 0 01-1.397-1.896l-.014-.155a.766.766 0 00-.767-.7h-.723a.77.77 0 00-.768.702l-.014.152a2.264 2.264 0 01-1.39 1.893 2.286 2.286 0 01-2.33-.35l-.118-.096a.767.767 0 00-1.041.046l-.512.51a.768.768 0 00-.046 1.038l.1.118c.54.653.677 1.544.352 2.325a2.268 2.268 0 01-1.895 1.397l-.156.014a.77.77 0 00-.7.77v.722c0 .4.303.73.702.768l.15.014a2.268 2.268 0 011.897 1.396c.325.786.19 1.675-.353 2.325l-.096.115a.765.765 0 00.046 1.04l.51.51a.764.764 0 001.038.047l.116-.096a2.288 2.288 0 011.453-.524v-.003z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+                <a href="settings.html">Settings</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <section class="settings__container">
+        <div class="settings__row">
+         
+            <div class="settings__title">
+                <h2>Settings</h2>
+            </div>
+
+            <div class="settings__privacy">
+                <div class="privacy__heading">
+                    <h2>Privacy</h2>
+                </div>
+                <div class="personal__data__wrapper">
+                    <div class="personal__data">
+                        <div class="personal__data__text">
+                            <p>Personalization and data</p>
+                            <p style="color: rgb(83, 100, 113); margin-top:3px; font-size: 14px;">Allow all</p>
+                        </div>
+                        <div class="right__arrow">
+                            <span>
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         width="0.8em" height="0.8em" viewBox="0 0 434.002 434.002" style="enable-background:new 0 0 434.002 434.002;"
+         xml:space="preserve">
+    <g>
+        <g>
+            <path d="M95.457,434.002l-33.105-45.076l234.094-171.928L62.352,45.077L95.456,0L360.24,194.459
+                c7.174,5.269,11.41,13.638,11.41,22.539c0,8.9-4.236,17.27-11.41,22.538L95.457,434.002z"/>
+        </g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="personal__data">
+                        <div class="personal__data__text">
+                            <p>Your Twitter data</p>
+                        </div>
+                        <div class="right__arrow">
+                            <span>
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         width="0.8em" height="0.8em" viewBox="0 0 434.002 434.002" style="enable-background:new 0 0 434.002 434.002;"
+         xml:space="preserve">
+    <g>
+        <g>
+            <path d="M95.457,434.002l-33.105-45.076l234.094-171.928L62.352,45.077L95.456,0L360.24,194.459
+                c7.174,5.269,11.41,13.638,11.41,22.539c0,8.9-4.236,17.27-11.41,22.538L95.457,434.002z"/>
+        </g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    <g>
+    </g>
+    </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="settings__text">
+                <p>These settings apply to this browser or device
+                    while you’re logged out. They don’t have any 
+                    effect when you’re logged in.
+                </p>
+            </div>
+
+            <div class="general">
+                <div class="general__heading">
+                    <h2>General</h2>
+                </div>
+                <div class="resources">
+                    <div class="resources__text">
+                        <p>Additional resources</p>
+                    </div>
+                    <div class="right__arrow">
+                        <span>
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="0.8em" height="0.8em" viewBox="0 0 434.002 434.002" style="enable-background:new 0 0 434.002 434.002;"
+     xml:space="preserve">
+<g>
+    <g>
+        <path d="M95.457,434.002l-33.105-45.076l234.094-171.928L62.352,45.077L95.456,0L360.24,194.459
+            c7.174,5.269,11.41,13.638,11.41,22.539c0,8.9-4.236,17.27-11.41,22.538L95.457,434.002z"/>
+    </g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+<div class="settings__data">
+    <div class="mobile__header">
+        <div class="mobile__header__row">
+            <div class="mobile__header__input">
+                <div class="mobile__logo">
+                    <span>
+                        <a href="page.html"><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <path d="M20.3287 11.0002V13.0002L7.50042 13.0002L10.7429 16.2428L9.32873 17.657L3.67188 12.0001L9.32873 6.34326L10.7429 7.75747L7.50019 11.0002L20.3287 11.0002Z" fill="black"/>
+                         </svg>
+                         </a>
+                    </span>
+                </div>
+                <div class="mobile__input">
+                    <span>
+                       <svg width="1.2em" height="1.2em" viewBox="0 0 24 24" fill="" {...props}>
+                           <path
+                             d="M21.53 20.47l-3.66-3.66A8.98 8.98 0 0020 11a9 9 0 10-9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66a.746.746 0 001.06 0 .747.747 0 00.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
+                             
+                           />
+                         </svg>
+                    </span>
+                    <input type="search" placeholder="Search Twitter">
+                </div>
+                <div class="setting__bar">
+                   <span class="circle"></span>
+                   <span class="circle"></span>
+                   <span class="circle"></span>
+                </div>
+            </div>
+            <div class="mobile__header__button">
+                <div class="mobile__btn log__in">
+                    <a href="#">Log in</a>
+                </div>
+                <div class="mobile__btn  sign__up">
+                    <a href="#">Sign up</a>
+                </div>
+            </div>
+        </div>   
+       </div>
+    <div class="settings__data__row">
+
+        <div class="settings__data__title">
+            <span>
+                <a href="page.html"><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M20.3287 11.0002V13.0002L7.50042 13.0002L10.7429 16.2428L9.32873 17.657L3.67188 12.0001L9.32873 6.34326L10.7429 7.75747L7.50019 11.0002L20.3287 11.0002Z" fill="black"/>
+                 </svg>
+                 </a>
+            </span>
+            <h2>Personalization and data</h2>
+        </div>
+
+        <div class="settings__center__text">
+            <p>These settings apply to this browser or device while you’re logged out. They don’t have any effect when you’re logged in.</p>
+        </div>
+
+        <div class="toggle__container">
+            <div class="toggle__text">
+                <p>Personalization and data</p>
+                <p class="toggle__p">This will enable or disable all of the settings on this page.</p>
+            </div>
+                <label class="toggle" for="myToggle">
+                    <input class="toggle__input" name="" type="checkbox" id="myToggle">
+                    <div class="toggle__fill"></div>
+                </label>
+        </div>
+
+
+
+        <div class="checkbox__title">
+            <h2>Personalization</h2>
+        </div>
+
+        <div class="checkbox__container">
+            <div class="toggle__text">
+                <p>Personalized ads</p>
+            </div>
+            <span>
+                <label>
+                    <input type="checkbox" class="option-input checkbox" checked>
+                </label>
+            </span>
+        </div>
+
+        <div class="checkbox__center__text">
+            <p>You will always see ads on Twitter based on your Twitter activity. When this setting is enabled, Twitter may further personalize ads from Twitter advertisers, on and off Twitter, by combining your
+                Twitter activity with other online activity and information from our partners. <span>Learn more</span>
+            </p>
+        </div>
+
+        <div class="checkbox__container">
+            <div class="toggle__text">
+                <p>Personalize based on your inferred identity</p>
+            </div>
+            <span>
+                <label>
+                    <input type="checkbox" class="option-input checkbox" checked>
+                </label>
+            </span>
+        </div>
+        <div class="checkbox__center__text">
+            <p>Twitter will always personalize your experience based on information 
+                you’ve provided, as well as the devices you’ve used to log in. When this setting is enabled, Twitter may also personalize based on other inferences about your identity, like devices and browsers you haven’t used to log in to Twitter or email addresses and phone numbers 
+                similar to those linked to your Twitter account. <span>Learn more</span>
+            </p>
+        </div>
+        
+
+
+
+        <div class="checkbox__title">
+            <h2>Data</h2>
+        </div>
+
+        <div class="checkbox__container">
+            <div class="toggle__text">
+                <p>Allow use of where you see Twitter content across the web</p>
+            </div>
+            <span>
+                <label>
+                    <input type="checkbox" class="option-input checkbox" checked>
+                </label>
+            </span>
+        </div>
+
+        <div class="checkbox__center__text">
+            <p>This setting lets Twitter keep track of your visits to other websites that integrate
+                 Twitter content, such as embedded timelines. That information makes Twitter better for you, such as by personalizing your experience. This web browsing history will 
+                never be stored with your name, email, or phone number. <span>Learn more</span>
+            </p>
+        </div>
+
+        <div class="checkbox__container">
+            <div class="toggle__text">
+                <p>Allow additional information sharing with business partners</p>
+            </div>
+            <span>
+                <label>
+                    <input type="checkbox" class="option-input checkbox" checked>
+                </label>
+            </span>
+        </div>
+        <div class="checkbox__center__text">
+            <p>Twitter always shares information with business partners as a way to run and improve its products. 
+                When enabled, this allows Twitter to share additional information with those partners to help support 
+                running Twitter’s business, including making Twitter’s marketing activities on other sites and apps more relevant for you.
+                 <span>Learn more</span>
+            </p>
+        </div>
+
+
+
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<!-- page - main - end -->
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

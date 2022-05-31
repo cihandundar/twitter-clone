@@ -1,0 +1,2706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Twitter / Youtube</title>
+</head>
+<body>
+
+<div class="page__main">
+<div class="page__container">
+
+<div class="page__nav">
+<div class="page__nav__row">
+<div class="nav__logo">
+    <span>
+        <a href="index.html"><svg
+            width="2em"
+            height="2em"
+            viewBox="0 0 24 24"
+            fill="none"
+            {...props}
+            >
+            <path
+              d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 002.048-2.578 9.3 9.3 0 01-2.958 1.13 4.66 4.66 0 00-7.938 4.25 13.229 13.229 0 01-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 003.96 9.824a4.647 4.647 0 01-2.11-.583v.06a4.66 4.66 0 003.737 4.568 4.692 4.692 0 01-2.104.08 4.661 4.661 0 004.352 3.234 9.348 9.348 0 01-5.786 1.995 9.5 9.5 0 01-1.112-.065 13.175 13.175 0 007.14 2.093c8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602a9.47 9.47 0 002.323-2.41l.002-.003z"
+              fill="rgb(29, 155, 240)"
+            />
+            </svg></a>
+    </span>
+</div>
+<div class="nav__wrapper">
+    <div class="nav__btn">
+        <span class="nav__icon explore">
+            <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" {...props}>
+                <path
+                  d="M21 7.337h-3.93l.372-4.272a.751.751 0 00-.682-.812.752.752 0 00-.812.683l-.383 4.4h-6.32l.37-4.27a.75.75 0 00-.68-.813.751.751 0 00-.813.683l-.382 4.4H3.782a.75.75 0 000 1.5H7.61l-.55 6.327H3a.75.75 0 000 1.5h3.93l-.372 4.272a.751.751 0 00.682.812l.066.003a.75.75 0 00.746-.686l.383-4.4h6.32l-.37 4.27a.751.751 0 00.682.813l.066.003a.75.75 0 00.746-.686l.382-4.4h3.957c.413 0 .75-.337.75-.75a.752.752 0 00-.75-.75H16.39l.55-6.327H21a.75.75 0 000-1.5zm-6.115 7.826h-6.32l.55-6.326h6.32l-.55 6.326z"
+                  fill="currentColor"
+                />
+              </svg>
+        </span>
+        <span class="nav__search">
+            <svg width="1.5em" height="1.5em" viewBox="0 0 24 24"  {...props}>
+                <path
+                  d="M21.53 20.47l-3.66-3.66A8.98 8.98 0 0020 11a9 9 0 10-9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66a.746.746 0 001.06 0 .747.747 0 00.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
+                  
+                />
+              </svg>
+        </span>
+        <a href="explore.html">Explore</a>
+    </div>
+    <div class="nav__btn">
+        <span class="nav__icon">
+            <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" {...props}>
+                <path
+                  d="M12 8.21c-2.09 0-3.79 1.7-3.79 3.79s1.7 3.79 3.79 3.79 3.79-1.7 3.79-3.79-1.7-3.79-3.79-3.79zm0 6.08A2.292 2.292 0 019.71 12c0-1.264 1.03-2.29 2.29-2.29s2.29 1.026 2.29 2.29A2.292 2.292 0 0112 14.29z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M12.36 22.375h-.722a2.26 2.26 0 01-2.262-2.064l-.014-.147a.77.77 0 00-.472-.644.763.763 0 00-.798.115l-.116.097c-.868.725-2.253.663-3.06-.14l-.51-.51a2.262 2.262 0 01-.14-3.06l.098-.118a.768.768 0 00.122-.787.768.768 0 00-.646-.48l-.15-.014a2.26 2.26 0 01-2.067-2.262v-.722a2.26 2.26 0 012.064-2.262l.156-.014a.777.777 0 00.522-1.268l-.094-.116a2.261 2.261 0 01.137-3.06l.512-.512c.804-.804 2.188-.865 3.06-.14l.116.098c.218.184.528.23.79.122a.769.769 0 00.477-.643l.014-.153a2.26 2.26 0 012.262-2.066h.722a2.26 2.26 0 012.262 2.064l.014.156c.025.285.206.53.472.64.277.117.58.062.794-.117l.12-.102c.867-.723 2.254-.662 3.06.14l.51.512c.836.838.896 2.153.14 3.06l-.1.118a.758.758 0 00-.123.788c.112.27.36.45.646.478l.152.014a2.26 2.26 0 012.067 2.262v.723a2.26 2.26 0 01-2.064 2.262l-.155.014a.763.763 0 00-.64.47.77.77 0 00.117.795l.1.12c.756.905.696 2.22-.14 3.06l-.51.51c-.807.804-2.19.864-3.06.14l-.115-.096a.78.78 0 00-.79-.122.772.772 0 00-.48.646l-.014.15a2.26 2.26 0 01-2.262 2.06l-.002.005zm-3.773-4.42c.3 0 .593.06.87.175a2.27 2.27 0 011.4 1.896l.014.147c.037.4.367.7.77.7h.722c.4 0 .73-.3.768-.7l.014-.148a2.266 2.266 0 011.392-1.892 2.283 2.283 0 012.333.35l.113.094a.764.764 0 001.039-.047l.51-.51a.766.766 0 00.048-1.038l-.1-.12a2.262 2.262 0 01-.352-2.323 2.263 2.263 0 011.894-1.397l.155-.014a.77.77 0 00.7-.77v-.722a.77.77 0 00-.702-.768l-.152-.014a2.268 2.268 0 01-1.895-1.393 2.263 2.263 0 01.353-2.327l.1-.118a.769.769 0 00-.048-1.04l-.51-.51a.764.764 0 00-1.038-.047l-.12.1a2.31 2.31 0 01-2.322.354 2.268 2.268 0 01-1.397-1.896l-.014-.155a.766.766 0 00-.767-.7h-.723a.77.77 0 00-.768.702l-.014.152a2.264 2.264 0 01-1.39 1.893 2.286 2.286 0 01-2.33-.35l-.118-.096a.767.767 0 00-1.041.046l-.512.51a.768.768 0 00-.046 1.038l.1.118c.54.653.677 1.544.352 2.325a2.268 2.268 0 01-1.895 1.397l-.156.014a.77.77 0 00-.7.77v.722c0 .4.303.73.702.768l.15.014a2.268 2.268 0 011.897 1.396c.325.786.19 1.675-.353 2.325l-.096.115a.765.765 0 00.046 1.04l.51.51a.764.764 0 001.038.047l.116-.096a2.288 2.288 0 011.453-.524v-.003z"
+                  fill="currentColor"
+                />
+              </svg>
+        </span>
+        <a href="settings.html">Settings</a>
+    </div>
+</div>
+</div>
+</div>
+
+<section class="section">
+    <div class="mobile__header">
+     <div class="mobile__header__row">
+         <div class="mobile__header__input">
+             <div class="mobile__logo">
+                <span>
+                    <a href="index.html"><svg
+                        width="1.7em"
+                        height="1.7em"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        {...props}
+                        >
+                        <path
+                          d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 002.048-2.578 9.3 9.3 0 01-2.958 1.13 4.66 4.66 0 00-7.938 4.25 13.229 13.229 0 01-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 003.96 9.824a4.647 4.647 0 01-2.11-.583v.06a4.66 4.66 0 003.737 4.568 4.692 4.692 0 01-2.104.08 4.661 4.661 0 004.352 3.234 9.348 9.348 0 01-5.786 1.995 9.5 9.5 0 01-1.112-.065 13.175 13.175 0 007.14 2.093c8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602a9.47 9.47 0 002.323-2.41l.002-.003z"
+                          fill="rgb(29, 155, 240)"
+                        />
+                        </svg></a>
+                </span>
+             </div>
+             <div class="mobile__input">
+                 <span>
+                    <svg width="1.2em" height="1.2em" viewBox="0 0 24 24" fill="" {...props}>
+                        <path
+                          d="M21.53 20.47l-3.66-3.66A8.98 8.98 0 0020 11a9 9 0 10-9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66a.746.746 0 001.06 0 .747.747 0 00.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
+                          
+                        />
+                      </svg>
+                 </span>
+                 <input type="search" placeholder="Search Twitter">
+             </div>
+             <div class="setting__bar">
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+             </div>
+         </div>
+         <div class="mobile__header__button">
+             <div class="mobile__btn log__in">
+                 <a href="#">Log in</a>
+             </div>
+             <div class="mobile__btn  sign__up">
+                 <a href="#">Sign up</a>
+             </div>
+         </div>
+     </div>   
+    </div>
+<div class="section__row">
+    <div class="section__header">
+        <div class="sectin__container">
+            <i class="fa-solid fa-arrow-left-long"></i>
+            <div class="section__heading">
+                <div class="section__heading__wrapper">
+                    <h2>YouTube</h2>
+                    <div class="blue__tick">
+                        <img src="images/blue-tick.png" alt="">
+                    </div>
+                </div>
+                <p>44.4K Tweets</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cover__photo">
+        <img src="images/youtube-page-background.png" alt="">
+    </div>
+    
+    <div class="section__profile">
+        <div class="section__profile__photo">
+            <img src="images/youtube-profile-photo.jpg" alt="">
+        </div>
+        <div class="follow__btn">
+            <a href="#">Follow</a>
+        </div>
+    </div>
+
+    <div class="profile__content">
+        <div class="profile__name">
+            <div class="name__wrapper">
+                <h2>YouTube</h2>
+                <div class="blue__tick">
+                    <img src="images/blue-tick.png" alt="">
+                </div>
+            </div>
+            <p>@YouTube</p>
+        </div>
+        <div class="profile__content__center"><p>like and subscribe.</p></div>
+
+        <div class="profile__info">
+            <div class="profile__info__wrapper">
+                <div class="profile__info__col">
+                    <div class="profile__info__icon">
+                        <img src="images/location-svgrepo-com.svg" alt="">
+                    </div>
+                    <p>San Bruno, CA</p>
+                </div>
+                <div class="profile__info__col">
+                    <div class="profile__info__icon">
+                        <img src="images/link-svgrepo-com.svg" alt="">
+                    </div>
+                    <a href="https://www.youtube.com/" target="_blank">youtube.com</a>
+                </div>
+                <div class="profile__info__col">
+                    <div class="profile__info__icon">
+                        <img src="images/calendar-svgrepo-com.svg" alt="">
+                    </div>
+                    <p>Joined November 2007</p>
+                </div>
+            </div>
+        </div>
+        <div class="mobile__info">
+            <div class="mobile__info__wrapper">
+                <div class="mobile__wrapper">
+                    <div class="profile__info__col">
+                        <div class="profile__info__icon">
+                            <img src="images/location-svgrepo-com.svg" alt="">
+                        </div>
+                        <p>San Bruno, CA</p>
+                    </div>
+                    <div class="profile__info__col" style="margin-left:10px ;">
+                        <div class="profile__info__icon">
+                            <img src="images/link-svgrepo-com.svg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/" target="_blank">youtube.com</a>
+                    </div>
+                </div>
+                <div class="profile__info__col" style="margin-top:5px ;">
+                    <div class="profile__info__icon">
+                        <img src="images/calendar-svgrepo-com.svg" alt="">
+                    </div>
+                    <p>Joined November 2007</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="follow__info">
+            <div class="following">
+                <span>1,206</span>
+                <p>Following</p>
+            </div>
+            <div class="following">
+                <span>75.1M</span>
+                <p>Followers</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="profile__nav">
+        <div class="profile__nav__wrapper">
+            <ul>
+                <li class="underline"><a href="#">Tweets</a></li>
+                <li><a href="#">Tweets & replies</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Likes</a></li>
+            </ul>
+        </div>
+    </div>
+
+<!-- section - sharing - start -->
+
+<div class="page__sharing__container">
+        <div class="page__sharing__row">
+    
+            <div class="page__sharing__col">
+                <div class="page__sharing__wrapper">
+                    <div class="sharing__profile__photo">
+                        <div class="sharing__profile__icon">
+                            <div class="sharing__profile__hover"></div>
+                            <img src="images/youtube-profile-photo.jpg" alt="">
+                            <div class="profile__icon__popup">
+                                <div class="popup__container">
+                                    <div class="popup__logo">
+                                        <img src="images/youtube-profile-photo.jpg" alt="">
+                                    </div>
+                                    <div class="popup__heading">
+                                        <h3>YouTube</h3>
+                                        <div class="popup__blue__tick">
+                                            <img src="images/blue-tick.png" alt="">
+                                        </div>
+                                    </div>
+                                    <p>@YouTube</p>
+                                    <div class="popup__info">
+                                        <p>like and subscribe.</p>
+                                    </div>
+                                </div>
+                                <div class="popup__following">
+                                    <div class="following">
+                                        <span>1,206</span>
+                                        <p>Following</p>
+                                    </div>
+                                    <div class="following">
+                                        <span>75.1M</span>
+                                        <p>Followers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sharing__heading">
+                    <div class="blue__tick">
+                        <h3>YouTube</h3>
+                        <img src="images/blue-tick.png" alt="" >
+                    </div>
+                    <div class="sharing__time">
+                        <p>@YouTube <span>·</span>10m</p>
+                    </div>
+                </div>
+            </div>
+            <div class="setting__bar">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+            </div>
+            
+        </div>
+    
+        <div class="sharing__content">
+            <p>hoping to see <span style="color:rgb(29, 155, 240) ;">@alexfaction</span> 's floral makeup EVERYWHERE this spring 🌸 →  <span style="color:rgb(29, 155, 240) ;">http://yt.be/FWMru</span></p>
+            <video controls src="images/7Jfh3yZs1mP-TqMb.mp4"></video>
+        </div> 
+        
+        <div class="sharing__button">
+            <div class="reply">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+                <p>20</p>
+            </div>
+            <div class="retweet">
+                    <span>
+                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                            <path
+                              d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                              fill="currentColor"
+                            />
+                          </svg>
+                    </span>
+                <p>76</p>
+            </div>
+            <div class="like">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+                <p>54</p>
+            </div>
+            <div class="share">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                          fill="currentColor"
+                        />
+                        <path
+                          d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            </div>
+        </div>
+</div>
+
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>20m</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p>favorite Shorts creator rn?</p>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>250</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>376</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>554</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>3h</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p>those videos where someone cleans EVERYTHING really make me feel like i cleaned my place lol 🌷</p>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>155</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>199</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>1,554</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>20h</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p>which fashion creator has you making notes like ✍🏾✍🏻✍🏽✍🏿✍🏼 🛍</p>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>324</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>836</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>254</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>23h</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p style="padding-right: 1px;">ps: if your videos are still set to private, we’ve got you!! our team is working to
+        get everything back to normal ✨</p>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>423</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>426</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>594</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>24 May</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p>creators: we're receiving reports that your recent videos and livestreams are being set to private. something seems off here & we're working on solving <br> this right now!!</p>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>550</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>658</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>854</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>24 May</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p>how are you celebrating <span style="color:rgb(29, 155, 240);">#APAHM?</span> dive into convos and culture with Asian American & Pacific Islander creators now ❤️ → <span style="color:rgb(29, 155, 240);">http://yt.be/T8oPP</span></p>
+        <video controls src="images/T1gy03BVh6aQG1u9.mp4"></video>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>722</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>1,176</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>3,054</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>25 May</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p>3 things to remember for new creators who are trying to find their voice:
+            ✳ prioritize creating content that brings you joy.
+            ✳ connect with creators & ask them how they found their voice/niche.
+            ✳ trust your gut.</p>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>669</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>786</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>4,152</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>25 May</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p>sustainability tip, make plans after filming your makeup tutorial so you don't waste the look 🤌.</p>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>557</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>2,376</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>6,054</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>25 May</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p>four diagonally spinning rats → <span style="color:rgb(29, 155, 240) ;">http://yt.be/XHdm3.</span></p>
+        <video controls src="images/ngCsmGP5sPmEVurb.mp4"></video>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>1,228</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>1,076</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>1,854</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>26 May</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p>we love <span style="color:rgb(29,155,240);">@itslisanguyen</span>'s <span style="color:rgb(29,155,240);">#YouTubeShorts</span> because not only does
+         everything look *delicious*, but she creates such a wide range of recipes 🤩
+         there's something for everyone →</p>
+         <div class="sharing__content__card">
+             <div class="sharing__card__image"><img src="images/sharing-card.jpg" alt=""></div>
+             <div class="sharing__content__card__text">
+                <p>youtube.com</p>
+                <p>Lisa Nguyen</p>
+                <p>everything is glavy Got Mail? Lisa Nguyen PO BOX 2857 Wichita, Kansas 67202</p>
+             </div>
+         </div>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>3,120</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>1,276</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>2,954</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>26 May</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p style="padding-right:1px ;">wednesday is <span style="color:rgb(29, 155, 240); ;">#WorldTarotDay</span> so Vanessa Somuayina is blessing us with tips 
+        for aspiring tarot creators ☄</p>
+        <p style="margin-top:20px;">subscribe to vanessa's channel here: <span style="color:rgb(29, 155, 240); ;">http://yt.be/VanessaSomuayina</span></p>
+        <video controls src="images/6Nvl4nQgTob8QGfq.mp4"></video>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>921</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>1,376</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>2,914</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>27 May</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p>the best way to watch videos is</p>
+        <div class="sharing__content__survey">
+            <div class="survey__col">
+                <span class="survey__block"></span>
+                <div class="survey__name">
+                    <p>with friends 🦋</p>
+                </div>
+                <div class="survey__number">
+                    <p>9.2%</p>
+                </div>
+            </div>
+            <div class="survey__col">
+                <span class="survey__block"></span>
+                <div class="survey__name">
+                    <p>with family 💞</p>
+                </div>
+                <div class="survey__number">
+                    <p>5.9%</p>
+                </div>
+            </div>
+            <div class="survey__col">
+                <span class="survey__block"></span>
+                <div class="survey__name">
+                    <p>with pets 🐶🐱</p>
+                </div>
+                <div class="survey__number">
+                    <p>7.2%</p>
+                </div>
+            </div>
+            <div class="survey__col">
+                <span class="survey__block"></span>
+                <div class="survey__name">
+                    <p>by myself 🥰</p>
+                </div>
+                <div class="survey__number">
+                    <p>77.7%</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>520</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>276</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>2,054</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<!-- page - sharing - scroll - container -->
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+        <div class="scrollable__wrapper">
+            <div class="scrollable__title">
+                <h2>Topics to follow</h2>
+                <p>Sign up to get Tweets about the Topics you follow in your Home timeline.</p>
+            </div>
+            <div class="scrollable-content box-container">
+                <button class="prev">
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                </button>
+                <button class="next">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+                <div class="scrollable-inner box-content">
+                    <div class="scroll__box__wrapper">
+                        <div class="scroll__box"><p>Some Good News with John Krasinski</p><span>+</span></div>
+                        <div class="scroll__box"><p>Youtube</p><span>+</span></div>
+                        <div class="scroll__box"><p>Ibai Llanos</p><span>+</span></div>
+                        <div class="scroll__box"><p>Microsoft</p><span>+</span></div>
+                        <div class="scroll__box"><p>Youtubers</p><span>+</span></div>
+                    </div>
+                    <div>
+                        <div class="scroll__box"><p>Android</p><span>+</span></div>
+                        <div class="scroll__box"><p>Game development</p><span>+</span></div>
+                        <div class="scroll__box"><p>Casey Neistat</p><span>+</span></div>
+                        <div class="scroll__box"><p>Internet of things</p><span>+</span></div>
+                        <div class="scroll__box"><p>Dream</p><span>+</span></div>
+                    </div>
+                    <div>
+                        <div class="scroll__box"><p>Web development</p><span>+</span></div>
+                        <div class="scroll__box"><p>PC gaming</p><span>+</span></div>
+                        <div class="scroll__box"><p>Shane Dawson</p><span>+</span></div>
+                        <div class="scroll__box"><p>Virtual reality</p><span>+</span></div>
+                        <div class="scroll__box"><p>Quenlin Blackwell</p><span>+</span></div>
+                    </div>
+                    <div>
+                        <div class="scroll__box"><p>Console gaming</p><span>+</span></div>
+                        <div class="scroll__box"><p>Ubisoft</p><span>+</span></div>
+                        <div class="scroll__box"><p>PlayStation</p><span>+</span></div>
+                        <div class="scroll__box"><p>PlayStation 5</p><span>+</span></div>
+                        <div class="scroll__box"><p>Microsoft Windows</p><span>+</span></div>
+                    </div>
+                    <div>
+                        <div class="scroll__box"><p>Open source</p><span>+</span></div>
+                        <div class="scroll__box"><p>Cybersecurity</p><span>+</span></div>
+                        <div class="scroll__box"><p>YouTube Music</p><span>+</span></div>
+                        <div class="scroll__box"><p>Google</p><span>+</span></div>
+                        <div class="scroll__box"><p>Information security</p><span>+</span></div>
+                    </div>
+                    <div>
+                        <div class="scroll__box"><p>Xbox</p><span>+</span></div>
+                        <div class="scroll__box"><p>Cloud platforms</p><span>+</span></div>
+                        <div class="scroll__box"><p>COVID-19</p><span>+</span></div>
+                        <div class="scroll__box"><p>Nintendo</p><span>+</span></div>
+                        <div class="scroll__box"><p>Cloud computing</p><span>+</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>28 May</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p>Notifications ON 📣 </p>
+        <p style="margin-top:20px;"> You have two days left to add <span style="color: rgb(29, 155, 240);">@Starz</span> for just $2.99/mo for 6 months. <span style="color: rgb(29, 155, 240);">http://yt.be/starz</span></p>
+        <div class="sharing__gif__container">
+            <div class="gif_sharing__heading">
+                <div class="gif__heading__logo">
+                    <img src="images/youtube-tv-logo.png" alt="">
+                </div>
+                <div class="gif__blue__tick">
+                    <h3>YouTube TV</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTubeTV <span>·</span>May 11</p>
+                </div>
+            </div>
+            <div class="sharing__gif__text">
+               <p>Brb as we march straight to the @Starz add-on. Now $2.99/mo (yes, that's 60% off!) for the first 6 months. http://yt.be/starz</p>
+               <p style="color: rgb(29, 155, 240); margin-top:8px;">Show this thread</p>
+            </div>
+        <video autoplay loop controls src="images/f3b6e8c3-f179-46fd-9793-339f3cbc28c0.mp4"></video>
+        </div>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>728</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>376</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>954</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>28 May</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p>Name the most underrated TV show.</p>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>93</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>632</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>1,054</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>28 May</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p>What was your first, and what is your favorite console of all time?</p>
+        <p style="margin-top:20px ;">Are they the same? 👀</p>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>315</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>952</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>1,554</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>29 May</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p>name the creator that always leaves you in a good mood 😁</p>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>468</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>3,315</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>3,159</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+
+<div class="page__sharing__container">
+    <div class="page__sharing__row">
+
+        <div class="page__sharing__col">
+            <div class="page__sharing__wrapper">
+                <div class="sharing__profile__photo">
+                    <div class="sharing__profile__icon">
+                        <div class="sharing__profile__hover"></div>
+                        <img src="images/youtube-profile-photo.jpg" alt="">
+                        <div class="profile__icon__popup">
+                            <div class="popup__container">
+                                <div class="popup__logo">
+                                    <img src="images/youtube-profile-photo.jpg" alt="">
+                                </div>
+                                <div class="popup__heading">
+                                    <h3>YouTube</h3>
+                                    <div class="popup__blue__tick">
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                </div>
+                                <p>@YouTube</p>
+                                <div class="popup__info">
+                                    <p>like and subscribe.</p>
+                                </div>
+                            </div>
+                            <div class="popup__following">
+                                <div class="following">
+                                    <span>1,206</span>
+                                    <p>Following</p>
+                                </div>
+                                <div class="following">
+                                    <span>75.1M</span>
+                                    <p>Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sharing__heading">
+                <div class="blue__tick">
+                    <h3>YouTube</h3>
+                    <img src="images/blue-tick.png" alt="" >
+                </div>
+                <div class="sharing__time">
+                    <p>@YouTube <span>·</span>29 May</p>
+                </div>
+            </div>
+        </div>
+        <div class="setting__bar">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+        </div>
+        
+    </div>
+
+    <div class="sharing__content">
+        <p>name two creators & i'll give you the title of their collab video 💕</p>
+    </div> 
+    
+    <div class="sharing__button">
+        <div class="reply">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828a.85.85 0 00.12.403.744.744 0 001.034.229c.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788v.001zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67a.75.75 0 00-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>1,158</p>
+        </div>
+        <div class="retweet">
+                <span>
+                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                        <path
+                          d="M23.77 15.67a.749.749 0 00-1.06 0l-2.22 2.22V7.65a3.755 3.755 0 00-3.75-3.75h-5.85a.75.75 0 000 1.5h5.85c1.24 0 2.25 1.01 2.25 2.25v10.24l-2.22-2.22a.749.749 0 10-1.06 1.06l3.5 3.5a.74.74 0 00.53.22.74.74 0 00.53-.22l3.5-3.5a.747.747 0 000-1.06zm-10.66 3.28H7.26c-1.24 0-2.25-1.01-2.25-2.25V6.46l2.22 2.22a.752.752 0 001.062 0 .749.749 0 000-1.06l-3.5-3.5a.747.747 0 00-1.06 0l-3.5 3.5a.749.749 0 101.06 1.06l2.22-2.22V16.7a3.755 3.755 0 003.75 3.75h5.85a.75.75 0 000-1.5h-.002z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                </span>
+            <p>4,315</p>
+        </div>
+        <div class="like">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12v.002zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965h-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+            <p>842</p>
+        </div>
+        <div class="share">
+            <span>
+                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" {...props}>
+                    <path
+                      d="M17.53 7.47l-5-5a.749.749 0 00-1.06 0l-5 5a.749.749 0 101.06 1.06l3.72-3.72V15a.75.75 0 001.5 0V4.81l3.72 3.72c.146.147.338.22.53.22a.749.749 0 00.53-1.28z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M19.708 21.944H4.292A2.294 2.294 0 012 19.652V14a.75.75 0 011.5 0v5.652c0 .437.355.792.792.792h15.416a.793.793 0 00.792-.792V14a.75.75 0 011.5 0v5.652a2.294 2.294 0 01-2.292 2.292z"
+                      fill="currentColor"
+                    />
+                  </svg>
+            </span>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- page - sharing - end -->
+</div>
+
+</section>
+
+
+
+<!-- page - aside - start -->
+<div class="page__aside">
+    <div class="aside__row">
+
+            <form method="post">
+                <div class="input__wrapper">
+                    <div class="search__icon">
+                        <svg width="1.3em" height="1.3em" viewBox="0 0 24 24" fill="none" {...props}>
+                            <path
+                              d="M21.53 20.47l-3.66-3.66A8.98 8.98 0 0020 11a9 9 0 10-9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66a.746.746 0 001.06 0 .747.747 0 00.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
+                              
+                            />
+                          </svg>
+                    </div>
+                    <input type="search" placeholder="Search Twitter">
+                </div>
+            </form>
+
+
+            <div class="aside__button__container">
+                <div class="aside__button__row">
+                    <div class="aside__button__title">
+                        <h2>New to Twitter?</h2>
+                        <p>Sign up now to get your own personalized timeline!</p>
+                    </div>
+                    <div class="aside__button__wrapper">
+                        <div class="aside__button">
+                            <img src="images/Google__G__Logo.svg" alt="">
+                            <p>Sign up with Google</p>
+                        </div>
+                        <div class="aside__button">
+                            <img src="images/apple-logo-svgrepo-com.svg" alt="">
+                            <p>Sign up with Apple</p>
+                        </div>
+                        <div class="aside__button">
+                            <p>Sign up with phone or email</p>
+                        </div>
+                    </div>
+                    <div class="aside__button__text">
+                        <p>By signing up, you agree to the <span><a href="#">Terms of Service</a></span> and <span><a href="#">Privacy Policy</a></span>, including <span><a href="#">Cookie Use.</a></span></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="aside__image__container">
+                <div class="aside__image__row">
+                    <div class="aside__image__wrapper">
+                        <div class="aside__image__col">
+                            <div class="aside__image">
+                                <img src="images/image-1.jpg" alt="">
+                            </div>
+                            <div class="aside__image">
+                                <img src="images/image-2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="aside__image__col">
+                            <div class="aside__image">
+                                <img src="images/image-3.jpg" alt="">
+                            </div>
+                            <div class="aside__image">
+                                <img src="images/image-4.jpg" alt="">
+                            </div>
+                            <div class="aside__image">
+                                <img src="images/image-5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="might__like__container">
+                <div class="might__like__wrapper">
+                    <div class="might__col__title">
+                         <h2>You might like</h2>
+                    </div>
+                    <div class="might__col__wrapper">
+                        <div class="might__like__col">
+                            <div class="might__like__profile">
+                                <div class="might__profile__logo">
+                                    <img src="images/nasa-profile.jpg" alt="">
+                                </div>
+                                <div class="might__profile__name">
+                                    <div class="might__blue__tick">
+                                        <h3>NASA</h3>
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                    <p>@NASA</p>
+                                </div>
+                            </div>
+                                <span class="follow">
+                                    <a href="#">Follow</a>
+                                </span>
+                        </div>
+                        <div class="might__like__col">
+                            <div class="might__like__profile">
+                                <div class="might__profile__logo">
+                                    <img src="images/leonardo-profile.jpg" alt="">
+                                </div>
+                                <div class="might__profile__name">
+                                    <div class="might__blue__tick">
+                                        <h3>Leonardo DiCaprio</h3>
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                    <p>@LeoDiCaprio</p>
+                                </div>
+                            </div>
+                                <span class="follow">
+                                    <a href="#">Follow</a>
+                                </span>
+                        </div>
+                        <div class="might__like__col">
+                            <div class="might__like__profile">
+                                <div class="might__profile__logo">
+                                    <img src="images/_hO4WPRC_400x400.png" alt="">
+                                </div>
+                                <div class="might__profile__name">
+                                    <div class="might__blue__tick">
+                                        <h3>Microsoft</h3>
+                                        <img src="images/blue-tick.png" alt="">
+                                    </div>
+                                    <p>@Microsoft</p>
+                                </div>
+                            </div>
+                                <span class="follow">
+                                    <a href="#">Follow</a>
+                                </span>
+                        </div>
+                        </div>
+                        <div class="show__more">
+                            <p>Show more</p>
+                            </div>
+                    </div>
+            </div>
+
+            <div class="trends__for__container">
+                <div class="trends__for__row">
+                    <div class="trends__for__title">
+                        <h2>Trends for you</h2>
+                    </div>
+                    <div class="trends__col__wrapper">
+
+                        <div class="trends__for__col">
+                            <div class="trends__col__text">
+                                <p>Trending in Turkey</p>
+                                <h3>ZamGeldi</h3>
+                                <p>22.7K Tweets</p>
+                            </div>
+                            <div class="trends__col__more">
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                            </div>
+                        </div>
+                        <div class="trends__for__col">
+                            <div class="trends__col__text">
+                                <p>Politics <span>·</span>Trending</p>
+                                <h3>#sessizistila</h3>
+                                <p>19.7K Tweets</p>
+                            </div>
+                            <div class="trends__col__more">
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                            </div>
+                        </div>
+                        <div class="trends__for__col">
+                            <div class="trends__col__text">
+                                <p>Sports <span>·</span>Trending</p>
+                                <h3>Fenerbahce</h3>
+                                <p>35.8K Tweets</p>
+                            </div>
+                            <div class="trends__col__more">
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                            </div>
+                        </div>
+                        <div class="trends__for__col">
+                            <div class="trends__col__text">
+                                <p>Sports <span>·</span>Trending</p>
+                                <h3>Barcelona</h3>
+                                <p>11.2K Tweets</p>
+                            </div>
+                            <div class="trends__col__more">
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                            </div>
+                        </div>
+                        <div class="trends__for__col">
+                            <div class="trends__col__text">
+                                <p>Technology <span>·</span>Trending</p>
+                                <h3>Apple2024</h3>
+                                <p>59.2K Tweets</p>
+                            </div>
+                            <div class="trends__col__more">
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                            </div>
+                        </div>
+                        <div class="trends__for__col">
+                            <div class="trends__col__text">
+                                <p>Movies & TV <span>·</span>Trending</p>
+                                <h3>#StrangerThings4</h3>
+                                <p>172.7K Tweets</p>
+                            </div>
+                            <div class="trends__col__more">
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                            </div>
+                        </div>
+                        <div class="trends__for__col">
+                            <div class="trends__col__text">
+                                <p>Movies & TV <span>·</span>Trending</p>
+                                <h3>#ObiWan</h3>
+                                <p>86.9K Tweets</p>
+                            </div>
+                            <div class="trends__col__more">
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                            </div>
+                        </div>
+                        <div class="trends__for__col">
+                            <div class="trends__col__text">
+                                <p>Trending</p>
+                                <h3>#COVID19</h3>
+                                <p>102.9K Tweets</p>
+                            </div>
+                            <div class="trends__col__more">
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                            </div>
+                        </div>
+                        <div class="trends__for__col">
+                            <div class="trends__col__text">
+                                <p>Trending</p>
+                                <h3>#StayHome</h3>
+                                <p>95.1K Tweets</p>
+                            </div>
+                            <div class="trends__col__more">
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                                <span class="circle"></span>
+                            </div>
+                        </div>
+                        <div class="trends__for__col">
+                            <div class="show__more">
+                                <p>Show more</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="aside__bottom__link">
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Imprint</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Ads info</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+                <p>© 2022 Twitter, Inc.</p>
+            </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+<!-- page - main - end -->
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
